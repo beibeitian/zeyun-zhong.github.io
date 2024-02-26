@@ -210,7 +210,7 @@ h2::after {
     gap: 2rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 100px) {
   .team-row {
     flex-direction: column; /* 在小屏幕上将导航项垂直排列 */
   }
@@ -236,9 +236,9 @@ h2::after {
     text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 100px) {
   .team-member {
-    flex-direction: column; /* 在小屏幕上将导航项垂直排列 */
+    flex-direction: column; /* 在小屏幕上将文字垂直排列 */
   }
 }
 
