@@ -236,6 +236,12 @@ h2::after {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+  .team-member {
+    flex-direction: column; /* 在小屏幕上将导航项垂直排列 */
+  }
+}
+
 /* Styling for the images to make them circular */
 .team-member img {
     width: 150px; /* Adjust size as needed */
